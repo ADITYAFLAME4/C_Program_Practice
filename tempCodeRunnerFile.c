@@ -1,1 +1,1 @@
-b[j][i]
+system("cls");
