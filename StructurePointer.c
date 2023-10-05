@@ -50,7 +50,8 @@ void main()
     //Modifing Student 2 Data
 
     (*ptr2).rollno=3;
-    //(*ptr2).name ="NewName"; Facing some error while changing name.   
+    //Facing some error while changing name, as was using (*ptr).name insteed of (*ptr).name[20]
+    (*ptr2).name[20] ="NewName";   
     (*ptr2).marks=84.995;
 
     //Printing Student 2 modified data.
