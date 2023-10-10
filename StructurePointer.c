@@ -51,7 +51,7 @@ void main()
 
     (*ptr2).rollno=3;
     //Facing some error while changing name, as was using (*ptr).name insteed of (*ptr).name[20]
-    (*ptr2).name[20] ="NewName";   
+    //(*ptr2).name[20] ="NewName";   
     (*ptr2).marks=84.995;
 
     //Printing Student 2 modified data.
