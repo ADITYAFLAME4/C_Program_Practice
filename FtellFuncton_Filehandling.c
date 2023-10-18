@@ -20,7 +20,7 @@ void main()
     printf("\n%s",str);     //Should print the string My according to the file.
 
 
-    fseek(fp,0,SEEK_END);   // Offset 0 to end of file = Lenfth of file.
+    fseek(fp,0,SEEK_END);   // Offset 0 to end of file = Length of file.
     printf("\n %d",ftell(fp));
 
     fclose(fp);
